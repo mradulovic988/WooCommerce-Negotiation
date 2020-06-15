@@ -19,6 +19,8 @@ Add below code on every place where you want to include this app into your proje
 
 `<?php get_template_part('/woocommerce-negotiation/content', 'woocommerce-negotiation') ?>`
 
+You will spot a ***Contact button*** on the image below.
+
 <img src="/img/single-product.png" alt="popup" width="100%">
 
 <!-- How to use -->
