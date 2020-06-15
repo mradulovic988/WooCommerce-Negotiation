@@ -8,7 +8,6 @@
     This small app is used for every single product, where the user want to contact the administrator and to negotiate about the price.
     <br />
   </p>
-  <img src="/img/popup.png" alt="popup" width="100%">
 </p>
 
 
@@ -21,10 +20,8 @@ Add below code on every place where you want to include this app into your proje
 
 You will spot a ***Contact button*** on the image below.
 
-<img src="/img/single-product.png" alt="popup" width="100%">
 
-<!-- How to use -->
-## How To Use
+<img src="/img/single-product.png" alt="popup" width="100%">
 
 - You need to add ***Product ID*** from excluded place for the description in: `/templates/content-popup.php` on line: `10`
 - You need to add a ***e-mail*** address on which you want to receive an emails in: `/templates/content-popup-controller.php` on line `28`
@@ -126,6 +123,13 @@ button.contactSubmit:hover {
 ```
 
 If you want to extend this app all you need to do is to instantiate `WoocommerceNegotiation` class in `classes/content-class.php`
+
+<!-- How to use -->
+## How To Use
+When you click on the ***Contact button*** you will see a popup where you can contact the administrator.
+
+<img src="/img/popup.png" alt="popup" width="100%">
+
 
 <!-- CONTACT -->
 ## Contact
