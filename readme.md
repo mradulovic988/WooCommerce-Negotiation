@@ -18,12 +18,12 @@ Add below code on every place where you want to include this app into your proje
 
 `<?php get_template_part('/woocommerce-negotiation/content', 'woocommerce-negotiation') ?>`
 
-You will spot a ***Contact button*** on the image below.
+You will spot a ***Contact button*** as on the image below.
 
 
 <img src="/img/single-product.png" alt="popup" width="100%">
 
-- You need to add ***Product ID*** from excluded place for the description in: `/templates/content-popup.php` on line: `10`
+- You need to add ***Product ID*** if you want description on only that product. You can find the code in: `/templates/content-popup.php` on line: `10`
 - You need to add a ***e-mail*** address on which you want to receive an emails in: `/templates/content-popup-controller.php` on line `28`
 - You need to add a `CSS` code in your `style.css` in the ***child theme***. You can find it below:
 ```
