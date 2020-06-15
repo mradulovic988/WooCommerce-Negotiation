@@ -19,7 +19,7 @@ Add below code on every place where you want to include this app into your proje
 
 `<?php get_template_part('/woocommerce-negotiation/content', 'woocommerce-negotiation') ?>`
 
-<img src="/img/single-product.png.png" alt="popup" width="100%">
+<img src="/img/single-product.png" alt="popup" width="100%">
 
 <!-- How to use -->
 ## How To Use
