@@ -25,7 +25,7 @@ You will spot a ***Contact button*** on the image below.
 
 - You need to add ***Product ID*** from excluded place for the description in: `/templates/content-popup.php` on line: `10`
 - You need to add a ***e-mail*** address on which you want to receive an emails in: `/templates/content-popup-controller.php` on line `28`
-- You need to add a `CSS` code which you need to add in your `style.css` in the ***child theme***. You can find it below:
+- You need to add a `CSS` code in your `style.css` in the ***child theme***. You can find it below:
 ```
 .contentAboveButton {
     font-size: 21px;
@@ -127,6 +127,8 @@ If you want to extend this app all you need to do is to instantiate `Woocommerce
 <!-- How to use -->
 ## How To Use
 When you click on the ***Contact button*** you will see a popup where you can contact the administrator.
+
+WooCommerce Negotiation will automatically pick the ***product name*** and place it in ***Subject field***
 
 <img src="/img/popup.png" alt="popup" width="100%">
 
